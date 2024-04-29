@@ -276,6 +276,13 @@
             width: 40%;
         }
     }
+    @media (max-width: 1190px) {
+       .host{
+            height: 120px;
+            width: 120px;
+             
+        }
+    }
     @media (max-width: 1000px) {
         #containerTwo{
             /* background-color: red; */
@@ -287,12 +294,13 @@
         }
         #mini{
             width: 70%;
-            height: 50vh;
+            height: 40vh;
         }
         #skills{
             margin-top: 20px;
             margin-bottom: 20px;
             width: 70%;
+            height: 70vh;
         }
         .host{
             height: 130px;
@@ -314,11 +322,62 @@
         }
     }
 
-    @media (max-width: 650px) {
+    @media (max-width: 710px) {
+        .host{
+            height: 130px;
+             width: 130px;
+             font-size: 15px;
+        }
+    }
+    @media (max-width: 615px) {
         .host{
             height: 110px;
              width: 110px;
              font-size: 15px;
+        }
+         #mini h1{
+           font-size: 28px;
+        }
+         #mini p{
+           font-size: 15px;
+        }
+    }
+    @media (max-width: 530px) {
+         #mini{
+            width: 80%;
+            height: 40vh;
+        }
+        .host{
+            height: 120px;
+             width: 130px;
+        }
+    }
+      @media (max-width: 490px) {
+         #mini{
+            width: 80%;
+            height: 40vh;
+            background-color: transparent;
+            color: black;
+        }
+         #mini h1{
+           font-size: 25px;
+        }
+         #mini p{
+           font-size: 10px;
+        }
+    }
+     @media (max-width: 430px) {
+        .host{
+            height: 100px;
+             width: 100px;
+             font-size: 11px;
+        }
+    }
+     @media (max-width: 330px) {
+        .host{
+            height: 90px;
+             width: 90px;
+             font-size: 10px;
         }
     }
     
@@ -364,6 +423,8 @@
    .proHead{
     width: 100%;
     height: 8vh;
+    display: flex;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.034);
    }
    
@@ -371,11 +432,69 @@
         #box{
             width: 32%;
         }
+    
+    }
+    @media (max-width: 950px) {
+        
+        #box p{
+           font-size: 12px;
+        }
+    
     }
     @media (max-width: 850px) {
         #containerThree{
            /* background-color: #FFD43B; */
-           height: 160vh;
+           height: 180vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-evenly;
+           align-items: center;
+        }
+        .holder{
+            height: 160vh;
+            width: 50%;
+            display: block;
+            /* background-color: #63E6BE; */
+        }
+        .proHead{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #941089; */
+        }
+        #box{
+            width: 100%;
+            height: 50vh;
+            margin-top: 13px;
+            /* background-color: rgb(55, 151, 36); */
+        }
+    }
+    @media (max-width: 700px) {
+
+        .holder{
+            height: 160vh;
+            width: 60%;
+            display: block;
+            /* background-color: #63E6BE; */
+        }
+        .proHead{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #941089; */
+        }
+       #box p{
+        font-size: 13px;
+       }
+       
+    }
+    @media (max-width: 600px) {
+    
+        #containerThree{
+           /* background-color: #FFD43B; */
+           height: 190vh;
            display: flex;
            flex-direction: column;
            justify-content: space-evenly;
@@ -383,56 +502,44 @@
         }
         .holder{
             height: 150vh;
-            width: 50%;
-            display: block;
+            width: 70%;
         }
-        .proHead{
-            width: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        #box{
-            width: 100%;
-            height: 48vh;
-            margin-top: 5px;
-            /* background-color: wheat; */
-        }
-    }
-    @media (max-width: 650px) {
-    
-        .holder{
-            height: 150vh;
-            width: 60%;
-            display: block;
-            /* background-color: #63E6BE; */
-        }
-       
+        #box p{
+        font-size: 14px;
+       }
     }
     @media (max-width: 500px) {
     
-        .holder{
-            height: 150vh;
-            width: 80%;
-            display: block;
-            /* background-color: #e6b263; */
+        #containerThree{
+           /* background-color: #FFD43B; */
+           height: 190vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-evenly;
+           align-items: center;
         }
-       
+        .holder{
+            height: 160vh;
+            width: 70%;
+            /* background-color: #ec4d18; */
+        }
+        #box p{
+        font-size: 14px;
+       }
     }
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
     
         .holder{
-            height: 150vh;
+            height: 160vh;
             width: 90%;
-            display: block;
-            /* background-color: #e6b263; */
+           
         }
        
     }
     
     #containerFour{
         height: 40vh;
-        background-color: rgb(134, 29, 29);
+        /* background-color: rgb(134, 29, 29); */
         width: 100%;
         display: flex;
         justify-content: center;
@@ -683,11 +790,11 @@
                     <img src="https://www.makemyassignments.com/blog/wp-content/uploads/2022/05/Online-Test_0.jpg" alt="">
 
                     <p>
-                        A simply and responsive CBT using HTML, CSS, BOOTSRAP and JAVASCRIPT.
+                        A simple and responsive CBT using HTML , CSS, BOOTSRAP and JAVASCRIPT.
                     </p>
 
                     <button class="btn btn-light">
-                        <a href="">View demo</a>
+                        <a href="./cbt.html">View demo</a>
                     </button>
                 
             </div>
@@ -701,7 +808,7 @@
                 <img src="https://www.makemyassignments.com/blog/wp-content/uploads/2022/05/Online-Test_0.jpg" alt="">
 
                 <p>
-                    A simply and responsive CBT using HTML, CSS, BOOTSRAP and JAVASCRIPT.
+                    A simple and responsive CBT using HTML , CSS, BOOTSRAP and JAVASCRIPT.
                 </p>
 
                 <button class="btn btn-light">
@@ -718,7 +825,7 @@
                 <img src="https://www.makemyassignments.com/blog/wp-content/uploads/2022/05/Online-Test_0.jpg" alt="">
 
                 <p>
-                    A simply and responsive CBT using HTML, CSS, BOOTSRAP and JAVASCRIPT.
+                    A simple and responsive CBT using HTML , CSS, BOOTSRAP and JAVASCRIPT.
                 </p>
 
                 <button class="btn btn-light">
