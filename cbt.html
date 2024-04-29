@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d66b9ccd70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Amita:wght@400;700&family=Black+Ops+One&family=Bruno+Ace+SC&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@400;500;600;700&family=Poppins:wght@200;400;700&family=Sigmar&family=Tilt+Prism&family=Titan+One&family=Wallpoet&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.534); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box{
+    width: 70%;
+    height: 75vh;
+    /* background-color: black; */
+    border: 9px solid black;
+    border-radius: 8px;
+ }
+ .firstcon{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ }
+ .secondcon{
+    width: 100%;
+    height: 48vh;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .thirdcon{
+    width: 100%;
+    height: 7vh;
+    /* background-color: rgb(23, 150, 44); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .fourthcon{
+    width: 100%;
+    height: 7vh;
+    /* background-color: rgb(126, 28, 88); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .home{
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    border-radius: 8px;
+ }
+
+ #questionArea{
+    width: 95%;
+    height: 67px;
+    margin-top: 4px;
+    background-color: rgb(255, 102, 0);
+ }
+ #optionOne{
+    width: 95%;
+    height: 67px;
+    margin-top: 4px;
+    background-color: rgb(0, 255, 21);
+ }
+ #optionTwo{
+    width: 95%;
+    height: 67px;
+    margin-top: 4px;
+    background-color: yellow;
+ }
+ #optionThree{
+    width: 95%;
+    height: 67px;
+    margin-top: 4px;
+    background-color: rgb(4, 0, 255);
+ }
+ #optionFour{
+    width: 95%;
+    height: 67px;
+    margin-top: 4px;
+    background-color: rgb(255, 0, 179);
+ }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="firstcon">
+                <h1>
+                    CBT TEST
+                </h1>
+            </div>
+            <div class="secondcon">
+                <div class="home">
+                    <div class="form-control" id="questionArea">
+                        <h3>
+                          
+                        </h3>
+                    </div>
+                    <button class="form-control" id="optionOne"></button>
+                    <button class="form-control" id="optionTwo"></button>
+                    <button class="form-control" id="optionThree"></button>
+                    <button class="form-control" id="optionFour"></button>
+                </div>
+            </div>
+            <div class="thirdcon">
+                <button class="btn btn-dark">Previous</button>
+                <button class="btn btn-dark">Next</button>
+            </div>
+            <div class="fourthcon">
+                <button class="btn btn-dark">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let data = []
+
+    let Q1 = {
+       Question: "What country has won the most World Cups ?",
+       a: "Nigeria",
+       b: "France",
+       c: "Brazil",
+       d: "England",
+    }
+    let Q2 = {
+       Question: "Which of the following is a mountain ?",
+       a: "Nile",
+       b: "Everest",
+       c: "Mississippi",
+       d: "Disney"
+    }
+    let Q3 = {
+       Question: "Which of the following is a football team in Spain ?",
+       a: "Arsenal",
+       b: "Bayern Leverkusen",
+       c: "Getafe",
+       d: "Lyon"
+    }
+    let Q4 = {
+       Question: "Who is the current Nigerian president ?",
+       a: "Buhari",
+       b: "Tinubu",
+       c: "Obasanjo",
+       d: "Obama"
+    }
+
+    data.push(Q1)
+    data.push(Q2)
+    data.push(Q3)
+
+    console.log(data);
+
+    // console.log(Q1);
+    // console.log(Q2);
+    // console.log(Q3);
+</script>
